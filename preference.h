@@ -1,0 +1,6 @@
+#ifndef PREFERENCE
+#define PREFERENCE
+
+#define D9_DELL_ISSUE_RPN_SEV "D9_DELL_ISSUE_RPN_Sev"
+#define D9_ALLOW_TOSAP_ITEM "D9_Allow_ToSap_ITEM"
+#endif

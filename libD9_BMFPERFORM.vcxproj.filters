@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="userservice">
+      <UniqueIdentifier>{78efac94-5e57-4a04-8768-0241bcb6e928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BMF">
+      <UniqueIdentifier>{380bffa7-6547-4ab3-a4d3-a6923120b073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="handler">
+      <UniqueIdentifier>{83a8d00b-0fac-47ec-b74c-4c1f690b1969}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="libD9_BMFPERFORM_main.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cxx">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="sync_draw_version.cpp">
+      <Filter>userservice</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CreateDesignPostAction.cpp">
+      <Filter>BMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_ActionHandler.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_ReviseItemRevisionPostAction.cpp">
+      <Filter>BMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CheckAssembly.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CheckPlacement.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="epm_register_handler.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="set_bypass.cxx">
+      <Filter>userservice</Filter>
+    </ClCompile>
+    <ClCompile Include="close_bypass.cxx">
+      <Filter>userservice</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_ApplyCustomPN.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CheckCustomPN.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_PostCustomPN.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_SetMaterialGroupInfo.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CustomPNArch.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CheckBOMProperties.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_SendTechDocMail.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_ApplyRelativeBOM.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_SaveDCNChange.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_HPEBOMExport.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CreateDCNPostAction.cpp">
+      <Filter>BMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_StpToJT.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_DellEBOMExport.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_SetRealEmailPostAction.cpp">
+      <Filter>BMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_ScheduleTaskNotify.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_2ndSourceChangeList.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CreateMoldFolder.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CheckTriggerPlacement.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_NewMoldFee.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_DCNFee.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CheckFWRelation.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_SendMatrixEmail.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_FWAutoArch.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CreateItemPostAction.cpp">
+      <Filter>BMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_SendMailForApprove.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_SendMailForReject.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_Save_MNT_L10_AltGroup.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_Check_MNT_DCN.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_SubmitRPA.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_IRRPNIRDELL.cpp">
+      <Filter>BMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_IRSeverityIRDELL.cpp">
+      <Filter>BMF</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_SendIssueEmail.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_PostDCN2Agile.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_NoDifferenceNotice.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_SetProperty.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+    <ClCompile Include="D9_CheckBOMPropertiesForL10.cpp">
+      <Filter>handler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="epm_register_handler.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="error_handling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="extension.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="errorMsg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="preference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hxx">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReleaseNotes.txt">
+      <Filter>源文件</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
